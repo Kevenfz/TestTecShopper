@@ -3,8 +3,8 @@ import { estimateRide, confirmRide, getRides } from "../controllers/rideControll
 
 const router = Router();
 
-router.post("/ride/estimate", estimateRide);
-router.patch("/ride/confirm", confirmRide);
-router.get("/ride/:customer_id", getRides);
+router.post("/ride/estimate", estimateRide); 
+router.patch("/ride/confirm", confirmRide);  
+router.get("/ride/:customer_id", getRides);  
 
 export default router;
